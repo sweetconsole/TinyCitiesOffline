@@ -25,6 +25,7 @@ public class FieldSlot : MonoBehaviour
     [SerializeField] private Image _access;
 
     public int Id => _id;
+    public Construction Construction => _construction;
 
     private void Start()
     {

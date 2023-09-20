@@ -17,4 +17,11 @@ public class Field : MonoBehaviour
         for (int i = 0; i < _slots.Length; i++)
             _slots[i].ResetAccessSlot();
     }
+
+    public Construction GetConstructionSlot(int id)
+    {
+        Construction construction = _slots[id].Construction;
+
+        return construction;
+    }
 }
