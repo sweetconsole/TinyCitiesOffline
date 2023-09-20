@@ -7,10 +7,9 @@
 ## Особенности игры:
 
 ```
-git reset --mixed origin/main
 git add .
 git commit -m "commit name"
-git push origin main
+git pull
 ```
 
 ## Команда разработчиков
