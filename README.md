@@ -10,6 +10,7 @@
 git add .
 git commit -m "commit name"
 git pull
+git push
 ```
 
 ## Команда разработчиков
