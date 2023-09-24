@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 [CreateAssetMenu(fileName = "Resource", menuName = "ScriptableObjects/Construction", order = 51)]
 public class Construction : ScriptableObject
@@ -12,6 +13,14 @@ public class Construction : ScriptableObject
     [SerializeField] private List<Construction> _lineOne = new List<Construction>();
     [SerializeField] private List<Construction> _lineTwo = new List<Construction>();
     [SerializeField] private List<Construction> _lineThree = new List<Construction>();
+
+    [SerializeField] public CraftConstruction _craft;
+
+    public class CraftConstruction
+    {
+        public Construction one;
+        public Construction two;
+    }
 
     public string Name => _name;
     public string Description => _description;
@@ -34,3 +43,4 @@ public enum ItemType
     Tavern,       /* Тёмно зелёные */
     Resource
 }
+

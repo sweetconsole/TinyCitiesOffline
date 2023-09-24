@@ -13,7 +13,7 @@ public class ConstructionCard : MonoBehaviour
     public Construction ConstructionItem => _constriction;
 
     void Start()
-    {   
+    {
         if (_constriction.Type == ItemType.Resource)
         {   
             _name.text = _constriction.Name;

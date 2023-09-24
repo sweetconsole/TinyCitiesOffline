@@ -1,2 +1,5 @@
 .vs/
 .vsconfig
+
+Assets/Byaki/*.meta
+Logs/
