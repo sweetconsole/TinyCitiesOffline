@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d3f2376b4c10f49b92ae5bd4611c23, type: 3}
   m_Name: Wheat
   m_EditorClassIdentifier: 
-  _name: Wheat
+  _name: "\u041F\u0449\u0435\u043D\u0438\u0446\u0430"
   _description: 
   _image: {fileID: 2107215887564933441, guid: cef11219701031f48bd2f29c9a1de162, type: 3}
   _type: 8

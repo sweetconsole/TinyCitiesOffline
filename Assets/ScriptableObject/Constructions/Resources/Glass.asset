@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d3f2376b4c10f49b92ae5bd4611c23, type: 3}
   m_Name: Glass
   m_EditorClassIdentifier: 
-  _name: Glass
+  _name: "\u0421\u0442\u0435\u043A\u043B\u043E"
   _description: 
   _image: {fileID: 7871495015514009198, guid: cef11219701031f48bd2f29c9a1de162, type: 3}
   _type: 8

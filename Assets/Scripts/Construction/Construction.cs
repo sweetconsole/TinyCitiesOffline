@@ -5,6 +5,7 @@ using UnityEngine;
 public class Construction : ScriptableObject
 {
     [SerializeField] private string _name;
+    [TextArea(4, 8)]
     [SerializeField] private string _description;
     [SerializeField] private Sprite _image;
     [SerializeField] private ItemType _type;
