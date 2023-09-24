@@ -2,4 +2,5 @@
 .vsconfig
 
 Assets/Byaki/*.meta
+Assets/Byaki/Roboto/*.meta
 Logs/
