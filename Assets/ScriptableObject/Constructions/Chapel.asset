@@ -17,9 +17,11 @@ MonoBehaviour:
     <sprite=3>."
   _image: {fileID: 21300000, guid: 2d4bd54e4d53e6c4bb5ef06a1596c6ca, type: 3}
   _type: 2
+  _sizeConstructionX: 3
+  _sizeConstructionY: 2
   _lineOne:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0b5f9df59e3c6a641a1449a96479bb69, type: 2}
+  - {fileID: 11400000, guid: 6d038ae9b7c9a5d4cb9feacfada10f68, type: 2}
   - {fileID: 11400000, guid: 0b5f9df59e3c6a641a1449a96479bb69, type: 2}
   _lineTwo:
   - {fileID: 11400000, guid: 37bcbae059bb4d545b4a90cf7d9ccd85, type: 2}

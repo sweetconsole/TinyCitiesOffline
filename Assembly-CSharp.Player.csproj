@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Construction\BuildingConstruction.cs" />
     <Compile Include="Assets\Scripts\Construction\ConstructionCard.cs" />
     <Compile Include="Assets\Scripts\Field.cs" />
+    <Compile Include="Assets\Scripts\Methods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
